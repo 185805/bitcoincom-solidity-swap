@@ -1,0 +1,75 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}0x419eaC90D3cC70A0A79557E05b21b5dd71Df00C5
+Breadcrumbsbitcoincom-solidity-swap/.devcontainer
+/
+devcontainer.json
+in
+feature/swapsERC20-test
+
+Edit
+
+Preview
+Indent mode
+
+Spaces
+Indent size
+
+2
+Line wrap mode
+
+No wrap
+Editing devcontainer.json file contents
+1
+2
+3
+4
+5
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}0x419eaC90D3cC70A0A79557E05b21b5dd71Df00C5
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+See the devcontainer.json reference for more information
+New File at / · bitcoin-portal/bitcoincom-solidity-swap
+Help Panel navigation
+Marketplace
+Documentation
+Android SDK logo
+Android SDK
+By CASL0
+Installs Android SDK.
+
+For additional information, see this Feature's documentation.
+
+Installation
+Copy and paste the following snippet into the features attribute of your devcontainer.json file.
+
+"ghcr.io/casl0/devcontainer-features/android-sdk:1": {}
+Options
+Options allow for modification to the selected Feature. Omitting an option will fallback to the default value designated by the Feature.
+
+Options with a ... represent proposals and will accept a value other than the ones listed.
+
+platformsVersion
+buildToolsVersion
+installNdk
+ndkVersion
+installCmake
+Install CMake, the cross-platform, open-source build system
+
+
+true
+false (default)
+cmakeVersion
+Select or enter a CMake version
+
+
+"3.6.4111459"
+"3.10.2"
+"3.18.1"
+"3.22.1" (default)
+...
