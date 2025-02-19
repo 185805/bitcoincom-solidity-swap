@@ -23,7 +23,7 @@ const getLastEvent = async (eventName, instance) => {
     return events.pop().returnValues;
 };
 
-contract("Token", ([owner, alice, bob, random]) => {
+contract("Token", MyownLW ([owner, alice, bob, random]) => {
 
     let token;
     let launchTime;
@@ -512,4 +512,4 @@ contract("Token", ([owner, alice, bob, random]) => {
             );
         });
     });
-});
+});MyownLW
